@@ -1,3 +1,49 @@
 body{
-    background: linear-gradient(to right, rgb(0,9,60), #2d0b00);
+    background-color: #10121a;
+}
+.nav-youfit-icon{
+    height: 30px;
+    width: 30px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+.youfit-title{
+    padding-top: 0px;
+    margin-left: 38px;
+    font-size: 20px;
+    color: white;
+}
+.logo-and-title{
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+    margin-left: 350px;
+    width: 33%;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgba(30, 33, 66, 0.7);
+    padding: 10px 10px 7px 10px;
+    border-radius: 200px 200px 200px 200px;
+    color: white;
+}
+.nav-items{
+    margin-left: 95px;
+}
+.join-button-nav{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px 7px 10px;
+    background-color: #002d9c;
+    border-radius: 200px 200px 200px 200px;
+    margin-left: 330px;
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    color: white;
+}
+#nav-item-1{
+    margin-left: 25px;
 }
