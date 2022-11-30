@@ -1,49 +1,76 @@
 body{
-    background-color: #10121a;
+    background-color: #0e0e16;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background: linear-gradient(180deg, #0e0e16 ,transparent);
+    backdrop-filter: blur(4px);
+    z-index: 1;
 }
 .nav-youfit-icon{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     float: left;
     border-radius: 50%;
     margin-top: 10px;
-    border: 2px solid white;
+    border: 3px solid #f6f6f9;
+    margin-left: 20px;
 }
 .youfit-title{
     padding-top: 0px;
-    margin-left: 38px;
-    font-size: 20px;
-    color: white;
+    margin-left: 73px;
+    margin-top: 13px;
+    font-size: 27px;
+    color: #f6f6f9;
 }
 .logo-and-title{
     display: inline-block;
 }
 .navbar{
     display: inline-block;
-    margin-left: 350px;
-    width: 33%;
-    height: 30px;
-    font-size: 20px;
-    background-color: rgba(30, 33, 66, 0.7);
+    margin-left: 390px;
+    width: 29%;
+    height: 33px;
+    font-size: 27px;
+    background-color: #1e2142;
     padding: 10px 10px 7px 10px;
     border-radius: 200px 200px 200px 200px;
-    color: white;
+    color: #f6f6f9;
 }
 .nav-items{
-    margin-left: 95px;
+    margin-left: 65px;
 }
 .join-button-nav{
     display: inline-block;
-    font-size: 20px;
+    font-size: 27px;
     padding: 10px 10px 7px 10px;
-    background-color: #002d9c;
+    background-color: #4f81ff;
     border-radius: 200px 200px 200px 200px;
-    margin-left: 330px;
-    height: 30px;
+    margin-left: 310px;
+    height: 33px;
     width: 140px;
     text-align: center;
-    color: white;
+    color: #f6f6f9;
 }
 #nav-item-1{
     margin-left: 25px;
+    color: rgb(136, 191, 255);
+}
+p{
+    font-size: 100px;
+    color: whitesmoke;
+}
+.radial{
+    margin-left: 500px;
+    height: 1000px;
+    width: 1200px;
+    background: radial-gradient( rgba(55, 50, 121, 0.89) 1%, rgba(14, 15, 23, 0.7) 70%);
+    z-index: -1;
+    border-radius: 10%;
+    filter: blur(160px);
+    position: fixed;
+    top: 30px;
 }
