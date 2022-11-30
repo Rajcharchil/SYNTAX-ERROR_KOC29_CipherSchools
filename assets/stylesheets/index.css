@@ -64,9 +64,10 @@ p{
     color: whitesmoke;
 }
 .radial{
-    margin-left: 500px;
-    height: 1000px;
-    width: 1200px;
+    margin-left: 520px;
+    margin-top: 60px;
+    height: 900px;
+    width: 1000px;
     background: radial-gradient( rgba(55, 50, 121, 0.89) 5%, rgba(14, 15, 23, 0.7) 80%);
     z-index: -1;
     border-radius: 10%;
