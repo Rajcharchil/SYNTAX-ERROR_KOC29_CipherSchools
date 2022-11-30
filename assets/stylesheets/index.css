@@ -3,7 +3,7 @@ body{
 }
 nav{
     position: sticky;
-    top: 0px;
+    top: 0;
     padding-top: 15px;
     padding-bottom: 5px;
     background: linear-gradient(180deg, #0e0e16 ,transparent);
@@ -67,10 +67,11 @@ p{
     margin-left: 500px;
     height: 1000px;
     width: 1200px;
-    background: radial-gradient( rgba(55, 50, 121, 0.89) 1%, rgba(14, 15, 23, 0.7) 70%);
+    background: radial-gradient( rgba(55, 50, 121, 0.89) 5%, rgba(14, 15, 23, 0.7) 80%);
     z-index: -1;
     border-radius: 10%;
     filter: blur(160px);
-    position: fixed;
+    position: absolute;
     top: 30px;
+    display: inline-block;
 }
