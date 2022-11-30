@@ -3,7 +3,7 @@ body{
 }
 nav{
     position: sticky;
-    top: 0;
+    top: 0px;
     padding-top: 15px;
     padding-bottom: 5px;
     background: linear-gradient(180deg, #0e0e16 ,transparent);
@@ -64,15 +64,13 @@ p{
     color: whitesmoke;
 }
 .radial{
-    margin-left: 520px;
-    margin-top: 60px;
-    height: 900px;
-    width: 1000px;
-    background: radial-gradient( rgba(55, 50, 121, 0.89) 5%, rgba(14, 15, 23, 0.7) 80%);
+    margin-left: 310px;
+    height: 1200px;
+    width: 1200px;
+    background: radial-gradient( rgba(55, 50, 121, 0.89) 1%, rgba(14, 15, 23, 0.7) 70%);
     z-index: -1;
     border-radius: 10%;
     filter: blur(160px);
     position: absolute;
     top: 30px;
-    display: inline-block;
 }
