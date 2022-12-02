@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     background: linear-gradient(180deg, #0e0e16 ,transparent);
@@ -36,6 +37,7 @@ header{
 .navbar{
     display: flex;
     flex-wrap: wrap;
+    height: auto;
     width: 27vw;
     justify-content: center;
     align-items: center;
@@ -63,6 +65,7 @@ header{
     height: auto;
 }
 body{
+    min-height: 100vh;
     background-color: #0e0e16;
     overflow-x: hidden;
 }
@@ -71,33 +74,36 @@ body{
     background-image: radial-gradient(41.33% 41.33% at 50% 50%, rgba(55, 50, 121, 0.89) 0px, #0e0e16 100%);
     height: 70vw;
     width: 70vw;
-    right: -40vw;
-    top: -10vw;
+    left: 40vw;
+    bottom: 10vw;
     z-index: -2;
+    overflow: hidden;
 }
 .animation-card-container{
     position: absolute;
     display: flex;
+    flex-direction: column;
     z-index: -1;
-    right: 4vw;
-    top: 11vw;
-    padding: 1vw 2vw;
+    right: 8vw;
+    top: 8vw;
+    padding: 5vw 3vw 0vw 3vw;
     align-items: center;
     flex-wrap: wrap;
-    height: 30vw;
+    height: 42vw;
     width: 40vw;
-    row-gap: 3vw;
+    row-gap: 2vw;
+    overflow: hidden;
 }
 .card{
     position: relative;
     height: 7vw;
-    width: 30vw;
+    width: 35vw;
     display: flex;
     column-gap: 3vw;
     color: #f6f6f9;
     z-index: -1;
-    right: -4vw;
-    top: -2vw;
+    left: 2vw;
+    bottom: 2vw;
     padding: 1vw 2vw;
     align-items: center;
     border-radius: 2vw;
@@ -108,7 +114,129 @@ body{
 .card-img{
     width: 6vw;
     border-radius: 50%;
+    height: auto;
 }
 .card-discription{
-    margin-left: 1vw;
+    margin-left: 0.8vw;
+    font-size: 1.5vw;
+}
+.card-heading{
+    font-size: 2.2vw;
+}
+.heading{
+    position: relative;
+    bottom: 53vw;
+    left: 8vw;
+    color: white;
+    width: 35vw;
+    font-size: 1.5vw;
+    color: #b3aca2;
+    height: auto;
+}
+.i-heading{
+    font-size: 3.1vw;
+    margin-bottom: 2vw;
+    color: white;
+}
+.radial-2{
+    position: relative;
+    background-image: radial-gradient(41.33% 41.33% at 50% 50%, rgba(55, 50, 121, 0.89) 0px, #0e0e16 100%);
+    height: 70vw;
+    width: 70vw;
+    right: 18vw;
+    bottom: 47vw;
+    z-index: -2;
+}
+.body-1{
+    position: relative;
+    top: 18vw;
+    left: 19vw;
+    width: 50vw;
+    height: auto;
+}
+.body1-text{
+    position: relative;
+    color: white;
+    bottom: 90vw;
+    left: 56vw;
+    width: 40vw;
+    height: auto;
+}
+.body-1-heading{
+    font-size: 4vw;
+    line-height: 3vw;
+}
+.body-1-discription{
+    margin-top: 3vw;
+    font-size: 1.3vw;
+    color: #b3aca2;
+}
+.radial-3{
+    position: relative;
+    background-image: radial-gradient(50.05% 50% at 39.06% 50%, #217ea0 0%, #0e0f3b 66.12%);
+    height: 90vw;
+    width: 90vw;
+    left: 38vw;
+    bottom: 81vw;
+    z-index: -2;
+}
+.body-2{
+    position: relative;
+    top: 30vw;
+    left: 10vw;
+    width: 50vw;
+    height: auto;
+}
+.body2-text{
+    position: relative;
+    color: white;
+    bottom: 136vw;
+    left: 2vw;
+    width: 40vw;
+    height: auto;
+}
+.body-2-heading{
+    font-size: 4vw;
+    line-height: 3vw;
+}
+.body-2-discription{
+    margin-top: 3vw;
+    font-size: 1.3vw;
+    color: #b3aca2;
+}
+.radial-4{
+    position: relative;
+    background-image: radial-gradient(47.45% 47.4% at 39.98% 39.34%,rgb(255 203 142/40%) 0%,#0e0f3b 70%);
+    height: 70vw;
+    width: 90vw;
+    right: 2vw;
+    bottom: 124vw;
+    z-index: -2;
+}
+.body-3{
+    position: relative;
+    top: 10vw;
+    left: 11vw;
+    width: 50vw;
+    height: auto;
+}
+.body3-text{
+    position: relative;
+    color: white;
+    bottom: 175vw;
+    left: 66vw;
+    width: 28vw;
+    height: auto;
+}
+.body-3-heading{
+    font-size: 4vw;
+    line-height: 3vw;
+}
+.body-3-discription{
+    margin-top: 3vw;
+    font-size: 1.3vw;
+    color: #b3aca2;
+}
+div{
+    overflow-y: hidden;
 }
