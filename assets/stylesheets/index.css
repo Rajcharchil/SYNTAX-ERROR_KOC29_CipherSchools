@@ -79,49 +79,88 @@ body{
     z-index: -2;
     overflow: hidden;
 }
-.animation-card-container{
-    position: absolute;
+.wrapper{
     display: flex;
-    flex-direction: column;
-    z-index: -1;
-    right: 8vw;
-    top: 8vw;
-    padding: 5vw 3vw 0vw 3vw;
     align-items: center;
-    flex-wrap: wrap;
-    height: 42vw;
-    width: 40vw;
-    row-gap: 2vw;
-    overflow: hidden;
-}
-.card{
-    position: relative;
-    height: 7vw;
-    width: 35vw;
-    display: flex;
-    column-gap: 3vw;
-    color: #f6f6f9;
-    z-index: -1;
-    left: 2vw;
-    bottom: 2vw;
-    padding: 1vw 2vw;
-    align-items: center;
-    border-radius: 2vw;
-    flex-wrap: nowrap;
-    background-image:linear-gradient(145deg, rgb(74, 70, 127) 4.89%, rgb(70, 68, 125) 50%, rgb(30, 29, 62) 102%);
     justify-content: center;
+    height: 100vh;
 }
-.card-img{
-    width: 6vw;
+.card .content{
+    display: flex;
+    align-items: center;
+}
+.wrapper .card{
+    background: #fff;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    justify-content: space-between;
+    border-radius: 100px 20px 20px 100px;
+    animation: animate 15s linear infinite;
+    animation-delay: calc(3s * var(--delay));
+}
+.wrapper:hover .card{
+    animation-play-state: paused;
+}
+.wrapper .card:last-child{
+    animation-delay: calc(3s * var(--delay));
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: translateY(100%) scale(0.5);
+    }
+    5%, 20%{
+        opacity: 0.4;
+        transform: translateY(100%) scale(0.7);
+    }
+    25%, 40%{
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0%) scale(1);
+    }
+    45%, 60%{
+        opacity: 0.4;
+        transform: translateY(-100%) scale(0.7);
+    }
+    65%, 100%{
+        opacity: 0;
+        transform: translateY(-100%) scale(0.5);
+    }
+}
+.wrapper .card .img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    left: -5px;
+    background: #fff;
     border-radius: 50%;
-    height: auto;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 }
-.card-discription{
-    margin-left: 0.8vw;
-    font-size: 1.5vw;
+.card .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
-.card-heading{
-    font-size: 2.2vw;
+.card .detials{
+    margin-left: 80px;
+}
+.detials span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.card a{
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 25px;
+    color: #fff;
+    background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
 }
 .heading{
     position: relative;
