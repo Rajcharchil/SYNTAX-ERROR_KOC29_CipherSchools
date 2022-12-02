@@ -226,6 +226,7 @@ body{
     left: 38vw;
     bottom: 151vw;
     z-index: -2;
+    overflow: hidden;
 }
 .body-2{
     position: relative;
