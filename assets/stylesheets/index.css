@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Albert Sans', 'Open Sans', sans-serif;
 }
 header{
     background: linear-gradient(180deg, #0e0e16 ,transparent);
