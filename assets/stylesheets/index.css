@@ -8,7 +8,7 @@ header{
     position: sticky;
     top: 0vw;
     backdrop-filter: blur(4px);
-    z-index: 10;
+    z-index: 3;
 }
 .header-nav{
     display: flex;
@@ -66,17 +66,49 @@ body{
     background-color: #0e0e16;
     overflow-x: hidden;
 }
-.radial{
+.radial-1{
     position: relative;
     background-image: radial-gradient(41.33% 41.33% at 50% 50%, rgba(55, 50, 121, 0.89) 0px, #0e0e16 100%);
     height: 70vw;
     width: 70vw;
     right: -40vw;
     top: -10vw;
+    z-index: -2;
 }
-p{
-    font-size: 4vw;
+.animation-card-container{
+    position: absolute;
+    display: flex;
+    z-index: -1;
+    right: 4vw;
+    top: 11vw;
+    padding: 1vw 2vw;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30vw;
+    width: 40vw;
+    row-gap: 3vw;
+}
+.card{
+    position: relative;
+    height: 7vw;
+    width: 30vw;
+    display: flex;
+    column-gap: 3vw;
     color: #f6f6f9;
-    word-wrap: break-word;
-    display: none;
+    z-index: -1;
+    right: -4vw;
+    top: -2vw;
+    padding: 1vw 2vw;
+    align-items: center;
+    border-radius: 2vw;
+    flex-wrap: nowrap;
+    background-image:linear-gradient(145deg, rgb(74, 70, 127) 4.89%, rgb(70, 68, 125) 50%, rgb(30, 29, 62) 102%);
+    justify-content: center;
+}
+.card-img{
+    width: 6vw;
+    border-radius: 50%;
+}
+.card-discription{
+    margin-left: 1vw;
 }
