@@ -52,6 +52,9 @@ header{
 #active{
     color: rgb(136, 191, 255);
 }
+.nav-item:hover{
+    color: rgb(136, 191, 255);
+}
 .navbar2{
     display: flex;
     flex-wrap: wrap;
