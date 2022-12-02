@@ -83,25 +83,30 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 40vw;
+    position: relative;
+    top: -65vw;
+    left: 25vw;
 }
 .card .content{
     display: flex;
     align-items: center;
 }
 .wrapper .card{
-    background: #fff;
-    width: 430px;
+    background-image: linear-gradient(145deg,#5c589f 4.89%,#58559c 50%,#25244d 102%);
+    width: 42vw;
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 3vw 2vw 3vw 6vw;
     opacity: 0;
     pointer-events: none;
     position: absolute;
     justify-content: space-between;
-    border-radius: 100px 20px 20px 100px;
+    border-radius: 3vw;
     animation: animate 15s linear infinite;
     animation-delay: calc(3s * var(--delay));
+    flex-wrap: nowrap;
+    color: white;
 }
 .wrapper:hover .card{
     animation-play-state: paused;
@@ -133,14 +138,14 @@ body{
     }
 }
 .wrapper .card .img{
-    height: 90px;
-    width: 90px;
+    height: 5vw;
+    width: 5vw;
     position: absolute;
-    left: -5px;
+    left: 1vw;
     background: #fff;
     border-radius: 50%;
-    padding: 5px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    padding: 0vw;
+    box-shadow: 0vw 0vw 1vw rgba(0,0,0,0.2);
 }
 .card .img img{
     height: 100%;
@@ -149,22 +154,22 @@ body{
     object-fit: cover;
 }
 .card .detials{
-    margin-left: 80px;
+    margin-left: 2vw;
 }
 .detials span{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 2vw;
 }
 .card a{
     text-decoration: none;
-    padding: 7px 18px;
-    border-radius: 25px;
+    padding: 1.2vw 2.1vw;
+    border-radius: 4vw;
     color: #fff;
-    background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
+    background-color: #605faf;
 }
 .heading{
     position: relative;
-    bottom: 53vw;
+    bottom: 97vw;
     left: 8vw;
     color: white;
     width: 35vw;
@@ -173,7 +178,7 @@ body{
     height: auto;
 }
 .i-heading{
-    font-size: 3.1vw;
+    font-size: 5vw;
     margin-bottom: 2vw;
     color: white;
 }
@@ -183,20 +188,20 @@ body{
     height: 70vw;
     width: 70vw;
     right: 18vw;
-    bottom: 47vw;
+    bottom: 87vw;
     z-index: -2;
 }
 .body-1{
     position: relative;
-    top: 18vw;
-    left: 19vw;
+    bottom: 137vw;
+    left: 2vw;
     width: 50vw;
     height: auto;
 }
 .body1-text{
     position: relative;
     color: white;
-    bottom: 90vw;
+    bottom: 160vw;
     left: 56vw;
     width: 40vw;
     height: auto;
@@ -216,7 +221,7 @@ body{
     height: 90vw;
     width: 90vw;
     left: 38vw;
-    bottom: 81vw;
+    bottom: 151vw;
     z-index: -2;
 }
 .body-2{
@@ -229,7 +234,7 @@ body{
 .body2-text{
     position: relative;
     color: white;
-    bottom: 136vw;
+    bottom: 206vw;
     left: 2vw;
     width: 40vw;
     height: auto;
@@ -249,7 +254,7 @@ body{
     height: 70vw;
     width: 90vw;
     right: 2vw;
-    bottom: 124vw;
+    bottom: 194vw;
     z-index: -2;
 }
 .body-3{
@@ -262,7 +267,7 @@ body{
 .body3-text{
     position: relative;
     color: white;
-    bottom: 175vw;
+    bottom: 245vw;
     left: 66vw;
     width: 28vw;
     height: auto;
