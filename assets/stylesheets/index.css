@@ -225,9 +225,9 @@ body{
 }
 .radial-3{
     position: absolute;
-    background-image: radial-gradient(50.05% 50% at 39.06% 50%, #217ea0 0%, #0e0f3b 66.12%);
+    background-image: radial-gradient(90% 60% at 60% 50%, #217ea0 0%, #0e0f3b 66.12%);
     height: 90vw;
-    width: 90vw;
+    width: 61vw;
     left: 39vw;
     top: 102vw;
     z-index: -2;
