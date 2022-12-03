@@ -8,10 +8,11 @@
 header{
     background: linear-gradient(180deg, #0e0e16 ,transparent);
     padding: 1vw 0vw;
-    position: sticky;
+    position: fixed;
     top: 0vw;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
     z-index: 3;
+    width: 100vw;
 }
 .header-nav{
     display: flex;
@@ -75,12 +76,12 @@ body{
     overflow-x: hidden;
 }
 .radial-1{
-    position: relative;
+    position: absolute;
     background-image: radial-gradient(41.33% 41.33% at 50% 50%, rgba(55, 50, 121, 0.89) 0px, #0e0e16 100%);
     height: 70vw;
     width: 70vw;
     left: 40vw;
-    bottom: 10vw;
+    top: 0vw;
     z-index: -2;
     overflow: hidden;
 }
@@ -90,8 +91,8 @@ body{
     justify-content: center;
     height: 40vw;
     position: relative;
-    top: -65vw;
-    left: 25vw;
+    top: 15vw;
+    left: 23vw;
 }
 .card .content{
     display: flex;
@@ -171,10 +172,11 @@ body{
     border-radius: 4vw;
     color: #fff;
     background-color: #605faf;
+    width: 7vw;
 }
 .heading{
-    position: relative;
-    bottom: 97vw;
+    position: absolute;
+    top: 23vw;
     left: 8vw;
     color: white;
     width: 35vw;
@@ -188,32 +190,31 @@ body{
     color: white;
 }
 .radial-2{
-    position: relative;
+    position: absolute;
     background-image: radial-gradient(41.33% 41.33% at 50% 50%, rgba(55, 50, 121, 0.89) 0px, #0e0e16 100%);
     height: 70vw;
     width: 70vw;
-    right: 18vw;
-    bottom: 87vw;
+    right: 43vw;
+    top: 56vw;
     z-index: -2;
 }
 .body-1{
-    position: relative;
-    bottom: 137vw;
+    position: absolute;
+    top: 71vw;
     left: 2vw;
     width: 50vw;
     height: auto;
 }
 .body1-text{
-    position: relative;
+    position: absolute;
     color: white;
-    bottom: 160vw;
+    top: 80vw;
     left: 56vw;
     width: 40vw;
     height: auto;
 }
 .body-1-heading{
     font-size: 4vw;
-    line-height: 3vw;
 }
 .body-1-discription{
     margin-top: 3vw;
@@ -221,33 +222,32 @@ body{
     color: #b3aca2;
 }
 .radial-3{
-    position: relative;
+    position: absolute;
     background-image: radial-gradient(50.05% 50% at 39.06% 50%, #217ea0 0%, #0e0f3b 66.12%);
     height: 90vw;
     width: 90vw;
     left: 39vw;
-    bottom: 153vw;
+    top: 102vw;
     z-index: -2;
     overflow: hidden;
 }
 .body-2{
-    position: relative;
-    top: 30vw;
+    position: absolute;
+    top: 22vw;
     left: 10vw;
     width: 50vw;
     height: auto;
 }
 .body2-text{
-    position: relative;
+    position: absolute;
     color: white;
-    bottom: 206vw;
+    top: 128vw;
     left: 2vw;
     width: 40vw;
     height: auto;
 }
 .body-2-heading{
     font-size: 4vw;
-    line-height: 3vw;
 }
 .body-2-discription{
     margin-top: 3vw;
@@ -255,38 +255,34 @@ body{
     color: #b3aca2;
 }
 .radial-4{
-    position: relative;
-    background-image: radial-gradient(47.45% 47.4% at 39.98% 39.34%,rgb(255 203 142/40%) 0%,#0e0f3b 70%);
-    height: 70vw;
+    position: absolute;
+    background-image: radial-gradient(60% 70% at 39.98% 60%,rgb(255 203 142/40%) 0%,#0e0f3b 70%);
+    height: 60vw;
     width: 90vw;
-    right: 2vw;
-    bottom: 194vw;
+    right: 11vw;
+    top: 152vw;
     z-index: -2;
 }
 .body-3{
-    position: relative;
-    top: 10vw;
-    left: 11vw;
+    position: absolute;
+    top: 19vw;
+    left: 12vw;
     width: 50vw;
     height: auto;
 }
 .body3-text{
-    position: relative;
+    position: absolute;
     color: white;
-    bottom: 245vw;
-    left: 66vw;
+    top: 173vw;
+    left: 71vw;
     width: 28vw;
     height: auto;
 }
 .body-3-heading{
     font-size: 4vw;
-    line-height: 3vw;
 }
 .body-3-discription{
     margin-top: 3vw;
     font-size: 1.3vw;
     color: #b3aca2;
-}
-div{
-    overflow-y: hidden;
 }
