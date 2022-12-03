@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -32,7 +33,6 @@ header{
     height: auto;
     width: 2.6vw;
     border-radius: 50%;
-    border: 0.2vw solid #f6f6f9;
 }
 .brand{
     font-size: 2vw;
@@ -46,17 +46,15 @@ header{
     align-items: center;
     column-gap: 4vw;
     border-radius: 2vw;
-    color: #f6f6f9;
     background-color: #1e2142;
 }
 .nav-item{
     font-size: 1.5vw;
+    text-decoration: none;
+    color: #f6f6f9;
 }
 #active{
-    color: rgb(136, 191, 255);
-}
-.nav-item:hover{
-    color: rgb(136, 191, 255);
+    color: #88bfff;
 }
 .navbar2{
     display: flex;
@@ -112,7 +110,7 @@ body{
     animation: animate 15s linear infinite;
     animation-delay: calc(3s * var(--delay));
     flex-wrap: nowrap;
-    color: white;
+    color: #f6f6f9;
 }
 .wrapper:hover .card{
     animation-play-state: paused;
@@ -180,7 +178,7 @@ body{
     position: absolute;
     top: 23vw;
     left: 8vw;
-    color: white;
+    color: #f6f6f9;
     width: 35vw;
     font-size: 1.5vw;
     color: #b3aca2;
@@ -189,7 +187,7 @@ body{
 .i-heading{
     font-size: 5vw;
     margin-bottom: 2vw;
-    color: white;
+    color: #f6f6f9;
 }
 .radial-2{
     position: absolute;
@@ -209,7 +207,7 @@ body{
 }
 .body1-text{
     position: absolute;
-    color: white;
+    color: #f6f6f9;
     top: 80vw;
     left: 56vw;
     width: 40vw;
@@ -242,7 +240,7 @@ body{
 }
 .body2-text{
     position: absolute;
-    color: white;
+    color: #f6f6f9;
     top: 128vw;
     left: 2vw;
     width: 40vw;
@@ -274,7 +272,7 @@ body{
 }
 .body3-text{
     position: absolute;
-    color: white;
+    color: #f6f6f9;
     top: 173vw;
     left: 71vw;
     width: 28vw;
@@ -287,4 +285,108 @@ body{
     margin-top: 3vw;
     font-size: 1.3vw;
     color: #b3aca2;
+}
+.cool{
+    font-size: 3vw;
+    position: absolute;
+    top: 208vw;
+    left: 7vw;
+    width: 33vw;
+    color: #f6f6f9;
+}
+.cool span{
+    color: #51a3ff;
+    font-family: 'Nanum Myeongjo', sans-serif;
+}
+.factors-grid{
+    display: grid;
+    position: absolute;
+    top: 212vw;
+    width: 80vw;
+    left: 10vw;
+    height: 30vw;
+    color: #b3aca2;
+    font-size: 1vw;
+    grid-template-columns: repeat(3, 23vw);
+    column-gap: 9vw;
+    justify-items: center;
+    align-items: center;
+}
+.grid-elem{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    grid-template-rows: repeat(3, 4.1vw);
+}
+.grid-elem h5{
+    font-size: 1.3vw;
+    color: #e3e1dd;
+}
+.grid-elem img{
+    height: 3vw;
+}
+.g3i{
+    width: 3.4vw;
+}
+.ending{
+    position: absolute;
+    top: 240vw;
+    left: 10vw;
+    color: #f6f6f9;
+    font-size: 1.9vw;
+}
+footer{
+    position: absolute;
+    background-color: #212231;
+    top: 247vw;
+    left: 8vw;
+    width: 85vw;
+    height: 20vw;
+    border-radius: 4vw;
+    color: #f6f6f9;
+}
+.space{
+    width: 100vw;
+    height: 3vw;
+    position: absolute;
+    top: 267vw;
+}
+footer h5{
+    position: absolute;
+    font-size: 2.8vw;
+    top: 2vw;
+    left: 7vw;
+    width: 30vw;
+}
+footer p{
+    position: absolute;
+    font-size: 1.3vw;
+    width: 27vw;
+    top: 10vw;
+    left: 7vw;
+    color: #b3aca2;
+}
+.socials{
+    position: absolute;
+    top: 14vw;
+    left: 50vw;
+}
+.socials img{
+    height: 4vw;
+    width: 4vw;
+}
+.right{
+    left: 50vw;
+    width: 30vw;
+}
+.p-right{
+    left: 50vw;
+    top: 8vw;
+}
+.contact{
+    top: 15vw;
+    left: 7vw;
+    font-size: 2vw;
+    color: #88bfff;
 }
